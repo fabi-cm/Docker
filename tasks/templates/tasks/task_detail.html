@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Detalles de Tarea</title>
+</head>
+<body>
+    <h1>Detalles de Tarea</h1>
+    <h2>{{ task.title }}</h2>
+    <p>{{ task.description }}</p>
+    <a href="{% url 'task_list' %}">Volver a la lista de tareas</a>
+</body>
+</html>
